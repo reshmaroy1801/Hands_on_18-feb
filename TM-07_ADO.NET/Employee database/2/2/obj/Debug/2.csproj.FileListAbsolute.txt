@@ -8,3 +8,13 @@ F:\PJP\handson\TM07forms\Employee database\2\2\obj\Debug\2.csproj.GenerateResour
 F:\PJP\handson\TM07forms\Employee database\2\2\obj\Debug\2.csproj.CoreCompileInputs.cache
 F:\PJP\handson\TM07forms\Employee database\2\2\obj\Debug\2.exe
 F:\PJP\handson\TM07forms\Employee database\2\2\obj\Debug\2.pdb
+C:\Users\MAHE\Desktop\demo\Hands_on_18-feb\TM-07_ADO.NET\Employee database\2\2\bin\Debug\2.exe.config
+C:\Users\MAHE\Desktop\demo\Hands_on_18-feb\TM-07_ADO.NET\Employee database\2\2\bin\Debug\2.exe
+C:\Users\MAHE\Desktop\demo\Hands_on_18-feb\TM-07_ADO.NET\Employee database\2\2\bin\Debug\2.pdb
+C:\Users\MAHE\Desktop\demo\Hands_on_18-feb\TM-07_ADO.NET\Employee database\2\2\obj\Debug\2.csprojAssemblyReference.cache
+C:\Users\MAHE\Desktop\demo\Hands_on_18-feb\TM-07_ADO.NET\Employee database\2\2\obj\Debug\_2.Form1.resources
+C:\Users\MAHE\Desktop\demo\Hands_on_18-feb\TM-07_ADO.NET\Employee database\2\2\obj\Debug\_2.Properties.Resources.resources
+C:\Users\MAHE\Desktop\demo\Hands_on_18-feb\TM-07_ADO.NET\Employee database\2\2\obj\Debug\2.csproj.GenerateResource.cache
+C:\Users\MAHE\Desktop\demo\Hands_on_18-feb\TM-07_ADO.NET\Employee database\2\2\obj\Debug\2.csproj.CoreCompileInputs.cache
+C:\Users\MAHE\Desktop\demo\Hands_on_18-feb\TM-07_ADO.NET\Employee database\2\2\obj\Debug\2.exe
+C:\Users\MAHE\Desktop\demo\Hands_on_18-feb\TM-07_ADO.NET\Employee database\2\2\obj\Debug\2.pdb

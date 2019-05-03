@@ -73,7 +73,7 @@ namespace _2
         }
 
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e) //Add
         {
             e_id = int.Parse(textBox1.Text);
             name = textBox2.Text;
@@ -141,36 +141,49 @@ namespace _2
             comboBox2.SelectedIndex = 0;
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)  //Delete
         {
-            SqlConnection con = new SqlConnection("Server =MIT-STD-H7\\SQLEXPRESS; Database = EmployeeManagement; Integrated Security = true ;");
-            SqlCommand cmd = con.CreateCommand();
-            //char[] id = new char[5];
-            int id = int.Parse(comboBox3.Text);
-            //char[] id = emp_id_sel.ToArray();
+            DialogResult dialogResult = MessageBox.Show("Are you sure!!!!", "Warning", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
 
-            try
+            if (dialogResult == DialogResult.Yes)
             {
-                con.Open();
-                string query = "Delete from Employee where EmployeeID =" + id;
-                cmd.CommandText = query;
-                cmd.ExecuteScalar();
-                MessageBox.Show("Employee deleted", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                SqlConnection con = new SqlConnection("Server =MIT-STD-H7\\SQLEXPRESS; Database = EmployeeManagement; Integrated Security = true ");
+                SqlCommand cmd = con.CreateCommand();
+                //char[] id = new char[5];
+                var id = int.Parse(comboBox3.Text);
+                //char[] id = emp_id_sel.ToArray();
+
+
+                try
+                {
+                    con.Open();
+                    string query = "Delete from Employee where EmployeeID =" + id;
+
+                    cmd.CommandText = query;
+                    cmd.ExecuteScalar();
+                }
+
+                catch (Exception ex)
+                {
+                    string msg = ex.Message.ToString();
+                    string caption = "Error";
+                    MessageBox.Show(msg, caption, MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                }
+
+                finally
+                {
+                    cmd.Dispose();
+                    con.Close();
+                }
             }
 
-            catch (Exception ex)
+            else
             {
-                string msg = ex.Message.ToString();
-                string caption = "Error";
-                MessageBox.Show(msg, caption, MessageBoxButtons.OK, MessageBoxIcon.Error);
+
             }
 
-            finally
-            {
-                cmd.Dispose();
-                con.Close();
-            }
         }
 
         private void button2_Click(object sender, EventArgs e) //update
