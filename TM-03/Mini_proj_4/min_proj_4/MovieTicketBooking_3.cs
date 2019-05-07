@@ -15,10 +15,10 @@ namespace min_proj_4
         public List<Movie> Movies { get; set; }
         public List<Show> Shows { get; set; }
         public List<Booking> Bookings { get; set; }
-        
+
         public MovieTicketing()
         {
-            User u1 = new User("Admin","Admin","Admin");
+            User u1 = new User("Admin", "Admin", "Admin");
             UserInformation = new List<User>();
             UserInformation.Add(u1);
 
@@ -26,9 +26,9 @@ namespace min_proj_4
             Movies = new List<Movie>();
             Shows = new List<Show>();
             Bookings = new List<Booking>();
-                       
-        }
 
+        }
+    
         public void AdminMenu()
         {
             Console.WriteLine("Admin Menu :\n" +

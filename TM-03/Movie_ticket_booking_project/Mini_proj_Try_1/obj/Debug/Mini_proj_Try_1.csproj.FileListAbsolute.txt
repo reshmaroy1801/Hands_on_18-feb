@@ -1,0 +1,2 @@
+F:\PJP\handson\Chapter 3\Mini_proj_Try_1\Mini_proj_Try_1\obj\Debug\Mini_proj_Try_1.csprojAssemblyReference.cache
+F:\PJP\handson\Chapter 3\Mini_proj_Try_1\Mini_proj_Try_1\obj\Debug\Mini_proj_Try_1.csproj.CoreCompileInputs.cache

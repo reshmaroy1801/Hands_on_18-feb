@@ -40,6 +40,7 @@ namespace MovieTicketBooking_2
             }
         }
     }
+    
 
     class Administrator : IAdmin
     {
