@@ -1,2 +1,9 @@
 F:\PJP\handson\Chapter 3\Mini_proj_Try_1\Mini_proj_Try_1\obj\Debug\Mini_proj_Try_1.csprojAssemblyReference.cache
 F:\PJP\handson\Chapter 3\Mini_proj_Try_1\Mini_proj_Try_1\obj\Debug\Mini_proj_Try_1.csproj.CoreCompileInputs.cache
+F:\PJP\handson\Chapter 3\Movie_ticket_booking_project\Mini_proj_Try_1\bin\Debug\Mini_proj_Try_1.exe.config
+F:\PJP\handson\Chapter 3\Movie_ticket_booking_project\Mini_proj_Try_1\bin\Debug\Mini_proj_Try_1.exe
+F:\PJP\handson\Chapter 3\Movie_ticket_booking_project\Mini_proj_Try_1\bin\Debug\Mini_proj_Try_1.pdb
+F:\PJP\handson\Chapter 3\Movie_ticket_booking_project\Mini_proj_Try_1\obj\Debug\Mini_proj_Try_1.csprojAssemblyReference.cache
+F:\PJP\handson\Chapter 3\Movie_ticket_booking_project\Mini_proj_Try_1\obj\Debug\Mini_proj_Try_1.csproj.CoreCompileInputs.cache
+F:\PJP\handson\Chapter 3\Movie_ticket_booking_project\Mini_proj_Try_1\obj\Debug\Mini_proj_Try_1.exe
+F:\PJP\handson\Chapter 3\Movie_ticket_booking_project\Mini_proj_Try_1\obj\Debug\Mini_proj_Try_1.pdb

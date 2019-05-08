@@ -77,7 +77,7 @@ namespace MovieTicketBooking1
         public void DisplayTheatreDetails()
         {
             Console.WriteLine("details of the movie:");
-            Console.WriteLine("TheatreID={0}\nTheatreName={1}\nCityName={2}\nAddress={3}\nNoOfScreens={4}", TheatreID, TheatreName, CityName, Address, NoOfScreens);
+            Console.WriteLine("TheatreID={0}\nTheatreName={1}\nCityName={2}\nAddress={3}\nNoOfScreens={4}", this.TheatreID, this.TheatreName, this.CityName, this.Address, this.NoOfScreens);
             for (int i = 1; i <= NoOfScreens; i++)
             {
 
